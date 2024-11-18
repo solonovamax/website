@@ -109,15 +109,22 @@ You can also define more advanced options per format. All images in formats with
 
 ```json
 {
+  "png": {
+    "palette": true
+  },
   "jpeg": {
     "quality": 75,
     "chromaSubsampling": "4:4:4"
   },
+  "jxl": {
+    "lossless": true
+  },
   "webp": {
     "nearLossless": true
   },
-  "png": {
-    "palette": true
+  "avif": {
+    "quality": 50,
+    "lossless": true
   }
 }
 ```
