@@ -73,6 +73,7 @@ To reference an image from HTML, use the `<img>` or `<picture>` element. The sam
     <picture>
       <source srcset="image.jpeg?as=avif&width=800" type="image/avif" />
       <source srcset="image.jpeg?as=webp&width=800" type="image/webp" />
+      <source srcset="image.jpeg?as=jxl&width=800" type="image/jxl" />
       <source srcset="image.jpeg?width=800" type="image/jpeg" />
       <img src="image.jpeg?width=200" alt="test image" />
     </picture>
